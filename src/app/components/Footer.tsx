@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -15,18 +14,22 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex space-x-6">
-            <Link
-              href="/"
+            <a
+              href="https://github.com/z3tasnim"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300"
             >
               <FaGithub />
-            </Link>
-            <Link
-              href="/"
+            </a>
+            <a
+              href="https://www.linkedin.com/in/zarin-tasnim-chowdhury-102550373"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300"
             >
               <FaLinkedin />
-            </Link>
+            </a>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=ztasnim263@gmail.com&su=Hiring%20Inquiry&body=Hi%20Zarin,"
               target="_blank"

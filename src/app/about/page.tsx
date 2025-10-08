@@ -1,57 +1,48 @@
-'use client'
+"use client";
 
-import { FaCode, FaLaptopCode, FaGraduationCap } from 'react-icons/fa'
-import { motion } from 'framer-motion'
-import { 
-  fadeInUp, 
-  fadeInDown, 
-  fadeIn, 
-  staggerContainer, 
-  cardHover, 
-  cardHoverSmall 
-} from '@/utils/animations'
+import { FaCode, FaLaptopCode, FaGraduationCap } from "react-icons/fa";
+import { motion } from "framer-motion";
+import {
+  fadeInUp,
+  fadeInDown,
+  fadeIn,
+  staggerContainer,
+  cardHover,
+  cardHoverSmall,
+} from "@/utils/animations";
 
 export default function About() {
   return (
     <div className="container max-w-7xl mx-auto py-12">
-      <motion.h1 
+      <motion.h1
         className="text-4xl font-bold mb-8 text-center"
         {...fadeInDown}
       >
         About Me
       </motion.h1>
-      
+
       {/* Bio Section */}
-      <motion.section 
-        className="mb-16"
-        {...fadeInUp}
-      >
+      <motion.section className="mb-16" {...fadeInUp}>
         <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-          I&apos;m a passionate Full Stack Developer with expertise in building modern web applications.
-          With a strong foundation in both frontend and backend technologies, I create seamless
-          user experiences and robust server-side solutions.
+          I&apos;m a passionate Full Stack Developer with expertise in building
+          modern, user-focused web applications. With a strong foundation in
+          both frontend and backend technologies, I craft seamless interfaces
+          and scalable server-side solutions.
         </p>
       </motion.section>
 
       {/* Skills Section */}
-      <motion.section 
-        className="mb-16"
-        {...fadeIn}
-        transition={{ delay: 0.2 }}
-      >
-        <motion.h2 
-          className="section-title"
-          {...fadeInUp}
-        >
+      <motion.section className="mb-16" {...fadeIn} transition={{ delay: 0.2 }}>
+        <motion.h2 className="section-title" {...fadeInUp}>
           Skills
         </motion.h2>
-        <motion.div 
+        <motion.div
           className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
         >
-          <motion.div 
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHover}
@@ -65,8 +56,8 @@ export default function About() {
               <li>HTML5 / CSS3</li>
             </ul>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHover}
@@ -80,8 +71,8 @@ export default function About() {
               <li>MongoDB</li>
             </ul>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHover}
@@ -147,35 +138,29 @@ export default function About() {
       </motion.section> */}
 
       {/* Education Section */}
-      <motion.section
-        {...fadeIn}
-        transition={{ delay: 0.6 }}
-      >
-        <motion.h2 
-          className="section-title"
-          {...fadeInUp}
-        >
+      <motion.section {...fadeIn} transition={{ delay: 0.6 }}>
+        <motion.h2 className="section-title" {...fadeInUp}>
           Education
         </motion.h2>
-        <motion.div 
+        <motion.div
           className="max-w-3xl mx-auto"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
         >
-          <motion.div 
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science & Engineering</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              Bachelor of Science in Computer Science & Engineering
+            </h3>
             <p className="text-primary mb-2">Sylhet Engineering College</p>
-            <p className="text-secondary">
-              2022 - Present
-            </p>
+            <p className="text-secondary">2022 - Present</p>
           </motion.div>
         </motion.div>
       </motion.section>
     </div>
-  )
-} 
+  );
+}

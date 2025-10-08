@@ -52,7 +52,7 @@ const Hero = () => {
           className="flex justify-center space-x-4 mb-8"
         >
           <motion.a
-            href="https://github.com"
+            href="https://github.com/z3tasnim"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300"
@@ -62,7 +62,7 @@ const Hero = () => {
             <FaGithub />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/zarin-tasnim-chowdhury-102550373"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300"
@@ -96,12 +96,14 @@ const Hero = () => {
             </Link>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Link
-              href="/contact"
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ztasnim263@gmail.com&su=Hiring%20Inquiry&body=Hi%20Zarin,"
+              target="_blank"
+              rel="noopener noreferrer"
               className=" inline-block w-full bg-gray-500  md:w-auto text-gray-800 dark:text-white px-8 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
             >
               Contact Me
-            </Link>
+            </a>
           </motion.div>
         </motion.div>
       </div>
