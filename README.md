@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌐 Zarin's Developer Portfolio
 
-## Getting Started
+A modern and fully responsive developer portfolio website built with Next.js, Tailwind CSS, and Framer Motion.
+This portfolio showcases my projects, skills, and experience as a Full Stack Developer, with smooth animations and a sleek dark-themed design.
 
-First, run the development server:
+🚀 Features
 
-```bash
+⚡ Next.js 14 – blazing-fast performance with App Router
+
+🎨 Tailwind CSS – clean and consistent design system
+
+✨ Framer Motion – subtle animations for an elegant feel
+
+🌓 Dark/Light mode toggle
+
+📱 Fully responsive across devices
+
+💼 Projects section with GitHub & live demo links
+
+📧 Contact options for recruiters and collaborations
+
+🧰 Tech Stack
+
+Framework & Libraries
+
+Next.js
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Framer Motion
+
+React Icons
+
+shadcn/ui
+
+Deployment
+
+Vercel (for hosting and CI/CD)
+
+🧩 Sections
+
+Home – Hero section with name, role, and social links
+
+About – Short overview of who I am and what I do
+
+Skills – My main frontend, backend, and tool-based skills
+
+Projects – Highlighted work with GitHub & live links
+
+Contact – Options for getting in touch or collaboration
+
+🛠️ Getting Started
+
+To run this project locally:
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Now open http://localhost:3000
+ in your browser 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📦 Build for Production
+npm run build
+npm run start
 
-## Learn More
+🌍 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+👉 Visit the live site: https://portfolio-zeta-eight-vk44q4nqsm.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployed via Vercel
+, ensuring automatic deployments from the main branch.
